@@ -1,0 +1,36 @@
+// https://fonts.google.com/specimen/Jua
+@import url("https://fonts.googleapis.com/css2?family=Jua&display=swap");
+
+$blue: #3D7BF8;
+*{
+    margin: 0;
+    font-family: jua;
+}
+
+iframe{
+    border: 0;
+    box-shadow: 0;
+    width: 100%;
+}
+
+#title{
+    font-size: 70px;
+    margin-bottom: 100px;
+    color: $blue;
+    font-weight: 300;
+}
+
+@media (max-width: 1625px) {
+    #title{
+        font-size: 50px;
+    }
+}
+
+header{
+    > img{
+        cursor: pointer;
+    }
+    > nav > a{
+        cursor: pointer;
+    }
+}

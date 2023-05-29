@@ -1,0 +1,16 @@
+@font-face {
+  font-family: 'Uiyeun';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105@1.1/Uiyeun.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  }
+
+iframe { border: 0; -webkit-box-shadow: 0; box-shadow: 0; width: 100%; }
+
+#title { font-size: 70px; margin-bottom: 100px; color: #3D7BF8; font-weight: 300; }
+
+@media (max-width: 1625px) { #title { font-size: 50px; } }
+header > img { height:100% }
+header > nav > a { cursor: pointer; }
+
+/*# sourceMappingURL=all.css.map */
